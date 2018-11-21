@@ -70,17 +70,17 @@ else
 read gly
 if [ -z $gly ]
 then
-echo  "后台账号：admin"
-gly=admin
+echo  "后台账号：admin@qq.com"
+gly=admin@qq.com
 else
         echo "后台账号：$gly"
         fi
-        echo -n "请输入SS连接端口，(默认138)： "
+        echo -n "请输入SS连接端口，(默认1314)： "
 read proxy
 if [ -z $proxy ]
 then
-echo  "SS连接端口：138"
-proxy=138
+echo  "SS连接端口：1314"
+proxy=1314
 else
         echo "SS连接端口：$proxy"
         fi
